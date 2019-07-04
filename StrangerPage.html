@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+		<meta charset="utf-8">
+		<title>Stranger Scores</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+		<script src="ratings.js"></script>
+		<style>
+			body {
+				color: #fff;
+				background: #000;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="row">
+			<div class="text-center">
+				<img src="kisspng-eleven-logo-demogorgon-decal-computer-icons-st-strangerthings-sticker-by-5b73d2a334cc38.3481802415343172192163.png" width="30%" height="40%"/>
+			</div>
+		</div>
+		<div class="row">
+			<div class="text-center">
+				<h1>Season 3</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="text-center">
+				<div id="results"></div>
+			</div>
+		</div>
+	</body>
+	<script>
+			console.log(myData)
+			for(var x in myData){
+				console.log(x)
+				document.getElementById("results").innerHTML += 
+				"<div> <h2> Episode Title: " + myData[x]['Title']+ " Episode Number: "
+				+ myData[x]['Episode_Number']+"</h2>"
+				+"<h3> Rating: " + myData[x]['Rating']+"</h3>"
+				+"<h4> Favorite Character: " + myData[x]['Favorite_Character'] + "</h4>"
+				+ "</div></br>";
+			}
+		</script>
+</html>

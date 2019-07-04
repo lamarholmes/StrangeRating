@@ -1,0 +1,1 @@
+myData =[{"id": 1, "Title": "Suzie, Do You Copy?", "Episode_Number": 1, "Rating": 6, "Favorite_Character": "Dustin"}, {"id": 2, "Title": "The Mall Rats", "Episode_Number": 2, "Rating": 8, "Favorite_Character": "Billy"}, {"id": 3, "Title": "The Case of the Missing", "Episode_Number": 3, "Rating": 7, "Favorite_Character": "Hopper"}]
